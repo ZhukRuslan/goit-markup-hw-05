@@ -79,6 +79,9 @@ img {
 .navigation-list-item:not(:last-child) {
     margin-right: 50px;
 }
+.navigation-list .navigation-list-item .active {
+    color: var(--accent-color);
+}
 .navigation-list-link {
     font-family: var(--text-font);;
     font-weight: 500;
