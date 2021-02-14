@@ -83,6 +83,8 @@ img {
     color: var(--accent-color);
 }
 .navigation-list-link {
+    position: relative;
+    display: block;
     font-family: var(--text-font);
     font-weight: 500;
     font-size: 14px;
@@ -95,6 +97,20 @@ img {
 .navigation-list-link:focus {
     color: var(--accent-color);
 }
+.current::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    margin-top: 30px;
+    background: #2196F3;
+    border-radius: 2px;
+}
+/*.current::after :hover {
+    background: #2196F3;
+    border-radius: 2px;
+}*/
 .email-link,
 .tel-link {
     display: flex;
