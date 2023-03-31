@@ -465,6 +465,20 @@ a.link-studio:visited {
   line-height: 1.5;
 }
 
+/* Overlay */
+.overlay {
+  position: absolute;
+  width: 296px;
+  height: 96px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+  color: var(--button-bg-color);
+  background-color: rgba(59, 73, 229, 0.5);
+}
+
 /* Footer */
 .footer {
   padding-top: 100px;
@@ -573,6 +587,11 @@ a.link-studio:visited {
   border-radius: 50%;
   cursor: pointer;
 }
+/* .modal-btn:hover,
+.modal-btn:focus {
+  fill: #ffffff;
+  background: #4d5ae5;
+} */
 .icon-cancel {
   position: absolute;
   top: 50%;
